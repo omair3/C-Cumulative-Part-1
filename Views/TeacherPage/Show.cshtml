@@ -1,0 +1,12 @@
+﻿@model C__Cumulative_Part_1.Models.Teacher
+
+<h1>Teacher Details</h1>
+
+<p><strong>ID:</strong> @Model.TeacherId</p>
+<p><strong>First Name:</strong> @Model.TeacherFirstName</p>
+<p><strong>Last Name:</strong> @Model.TeacherLastName</p>
+<p><strong>Employee Number:</strong> @Model.EmployeeNumber</p>
+<p><strong>Hire Date:</strong> @Model.HireDate.ToString("yyyy-MM-dd")</p>
+<p><strong>Salary:</strong> $@Model.Salary</p>
+
+<a href="/TeacherPage/List">Back to List</a>
